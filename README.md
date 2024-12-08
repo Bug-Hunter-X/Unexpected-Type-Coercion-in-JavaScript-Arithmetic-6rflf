@@ -1,0 +1,3 @@
+# Unexpected Type Coercion in JavaScript Arithmetic
+
+This repository demonstrates a common, yet subtle, bug in JavaScript related to type coercion during arithmetic operations.  JavaScript's dynamic typing allows for implicit type conversions, which can lead to unexpected results if not handled carefully.  The `bug.js` file shows an example where adding a number and a string results in string concatenation instead of numerical addition.  The `bugSolution.js` file provides a solution using explicit type checking to avoid this issue.
